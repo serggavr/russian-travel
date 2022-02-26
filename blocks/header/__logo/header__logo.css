@@ -1,0 +1,18 @@
+.header__logo {
+  width: 176px;
+  height: 52px;
+}
+
+@media (max-width: 768px) {
+  .header__logo {
+    width: calc(142px + (34 + 34 * 0.7) * ((100vw - 320px) / 768));
+    height: calc(42px + (8 + 8 * 0.7) * ((100vw - 320px) / 768));
+  }
+}
+
+@media (max-width: 320px) {
+  .header__logo {
+    width: 142px;
+    height: 42px;
+  }
+}

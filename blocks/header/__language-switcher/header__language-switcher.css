@@ -1,0 +1,15 @@
+.header__language-switcher {
+  margin-bottom: 6px;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  column-gap: 18px;
+  list-style: none;
+}
+
+@media (max-width: 320px) {
+  .header__language-switcher {
+    margin-bottom: 8px;
+  }
+}

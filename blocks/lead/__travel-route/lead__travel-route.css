@@ -1,0 +1,6 @@
+.lead__travel-route {
+  position: absolute;
+  max-width: calc(100% - 5%);
+  top: 14%;
+  left: 2%;
+}

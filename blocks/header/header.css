@@ -1,0 +1,27 @@
+.header {
+  padding-top: 28px;
+  margin: 0 48px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+@media (max-width: 1024px) {
+  .header {
+    margin: 0 24px;
+  }
+}
+
+@media (max-width: 768px) {
+  .header {
+    padding-top: calc(16px + (12 + 12 * 0.7) * ((100vw - 320px) / 768));
+    margin: 0 calc(16px + (8 + 8 * 0.7) * ((100vw - 320px) / 768));
+  }
+}
+
+@media (max-width: 320px) {
+  .header {
+    padding-top: 16px;
+    margin: 0 16px;
+  }
+}
