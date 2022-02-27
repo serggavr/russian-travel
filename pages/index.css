@@ -15,3 +15,10 @@
 @import url("../blocks/lead/__travel-route/lead__travel-route.css");
 @import url("../blocks/lead/__caption/lead__caption.css");
 @import url("../blocks/into/into.css");
+@import url("../blocks/into/__content/into__content.css");
+@import url("../blocks/into/__title/into__title.css");
+@import url("../blocks/into/__text/into__text.css");
+@import url("../blocks/into/__list/into__list.css");
+@import url("../blocks/into/__list-element/into__list-element.css");
+@import url("../blocks/into/__element-amount/into__element-amount.css");
+@import url("../blocks/photo-grid/photo-grid.css");
