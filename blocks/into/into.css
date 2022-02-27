@@ -1,17 +1,27 @@
 .into {
+  /* padding-top: 92px; */
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 1080px;
+  display: flex;
+  flex-direction: row;
+  padding: 92px 0 0;
 }
 
-.into__title {
+@media (max-width: 1024px) {
+  .into {
+    padding-top: 88px;
+  }
 }
 
-.into__text {
+@media (max-width: 768px) {
+  .into {
+    padding-top: calc(64px + (24 + 24 * 0.7) * ((100vw - 320px) / 768));
+  }
 }
 
-.into__list {
-}
-
-.into__list-item {
-}
-
-.into__list-element {
+@media (max-width: 320px) {
+  .into {
+    padding-top: 64px;
+  }
 }

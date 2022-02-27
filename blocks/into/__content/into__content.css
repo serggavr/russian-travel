@@ -1,0 +1,22 @@
+.into__content {
+  max-width: 690px;
+  margin: 0 48px;
+}
+
+@media (max-width: 1024px) {
+  .into__content {
+    margin: 0 24px;
+  }
+}
+
+@media (max-width: 768px) {
+  .into__content {
+    margin: 0 calc(16px + (8 + 8 * 0.7) * ((100vw - 320px) / 768));
+  }
+}
+
+@media (max-width: 320px) {
+  .into__content {
+    margin: 0 16px;
+  }
+}
