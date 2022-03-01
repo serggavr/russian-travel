@@ -13,9 +13,15 @@
   }
 }
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   .lead__caption {
     margin-left: calc(16px + (6 + 6 * 0.7) * ((100vw - 320px) / 768));
+  }
+} */
+
+@media (max-width: 768px) {
+  .lead__caption {
+    margin-left: 24px;
   }
 }
 
