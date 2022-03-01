@@ -7,10 +7,17 @@
   font-style: normal;
 }
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   .header__choose-language {
     font-size: calc(18px + (6 + 6 * 0.7) * ((100vw - 320px) / 768));
     line-height: calc(20px + (8 + 8 * 0.7) * ((100vw - 320px) / 768));
+  }
+} */
+
+@media (max-width: 768px) {
+  .header__choose-language {
+    font-size: 24px;
+    line-height: 28px;
   }
 }
 

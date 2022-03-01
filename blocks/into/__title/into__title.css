@@ -5,10 +5,17 @@
   line-height: 58px;
 }
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   .into__title {
     font-size: calc(32px + (22 + 22 * 0.7) * ((100vw - 320px) / 768));
     line-height: calc(35px + (23 + 23 * 0.7) * ((100vw - 320px) / 768));
+  }
+} */
+
+@media (max-width: 768px) {
+  .into__title {
+    font-size: 54px;
+    line-height: 58px;
   }
 }
 
