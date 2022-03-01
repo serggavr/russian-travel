@@ -1,0 +1,9 @@
+.places__text-block {
+  grid-area: text-block;
+}
+
+@media (max-width: 648px) {
+  .places__text-block {
+    margin: 0 16px;
+  }
+}
