@@ -5,17 +5,20 @@
   font-size: 96px;
   line-height: 100px;
   text-align: center;
+  color: white;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 712px) {
   .lead__title {
-    font-size: calc(40px + (56 + 56 * 0.7) * ((100vw - 320px) / 768));
-    line-height: calc(44px + (56 + 56 * 0.7) * ((100vw - 320px) / 768));
+    max-width: 472px;
+    font-size: 56px;
+    line-height: 60px;
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 500px) {
   .lead__title {
+    max-width: 338px;
     font-size: 40px;
     line-height: 44px;
   }

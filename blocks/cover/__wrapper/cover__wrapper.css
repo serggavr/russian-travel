@@ -9,6 +9,9 @@
   align-items: center;
   justify-content: center;
   background-color: rgba(42, 44, 47, 0.3);
+  text-decoration: none;
+  color: white;
+  transition: background-color ease-in-out 0.4s;
 }
 
 .cover__wrapper:hover {

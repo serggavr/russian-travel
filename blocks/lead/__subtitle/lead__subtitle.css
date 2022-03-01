@@ -5,28 +5,20 @@
   font-size: 30px;
   line-height: 36px;
   text-align: center;
+  color: white;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 712px) {
   .lead__subtitle {
-    max-width: calc(288px + (352 + 352 * 0.7) * ((100vw - 320px) / 768));
-    margin: calc(16px + (16 + 16 * 0.7) * ((100vw - 320px) / 768)) 0 0;
-    font-size: calc(16px + (14 + 14 * 0.7) * ((100vw - 320px) / 768));
-    line-height: calc(20px + (16 + 16 * 0.7) * ((100vw - 320px) / 768));
+    max-width: 472px;
+    font-size: 22px;
+    line-height: 25px;
   }
 }
 
-/* @media (max-width: 768px) {
+@media (max-width: 500px) {
   .lead__subtitle {
-    max-width: 640px;
-    margin: 32px 0 0;
-    font-size: 30px;
-    line-height: 36px;
-  }
-} */
-
-@media (max-width: 320px) {
-  .lead__subtitle {
+    max-width: 338px;
     margin: 16px 0 0;
     font-size: 16px;
     line-height: 20px;

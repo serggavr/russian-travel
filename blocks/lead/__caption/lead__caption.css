@@ -5,21 +5,10 @@
   line-height: 14px;
   letter-spacing: 1.5px;
   text-transform: uppercase;
+  color: white;
 }
 
-@media (max-width: 1024px) {
-  .lead__caption {
-    margin-left: 24px;
-  }
-}
-
-/* @media (max-width: 768px) {
-  .lead__caption {
-    margin-left: calc(16px + (6 + 6 * 0.7) * ((100vw - 320px) / 768));
-  }
-} */
-
-@media (max-width: 768px) {
+@media (max-width: 860px) {
   .lead__caption {
     margin-left: 24px;
   }
